@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "greninja_shopper",
+  "version": "${version}",
+  "name": "Greninja Shopper",
+  "description": "Adds a Greninja Shopper display entity that can be selected as an Easy NPC/Doppler custom model.",
+  "authors": ["Zaizhou Huang", "ChatGPT"],
+  "license": "ARR",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["zhua841.greninjashopper.GreninjaShopper"],
+    "client": ["zhua841.greninjashopper.client.GreninjaShopperClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "geckolib": ">=4.7.0"
+  }
+}
